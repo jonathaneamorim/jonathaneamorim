@@ -40,7 +40,7 @@
 
 <br/>
 
-<a href="https://github.com/jonathaneamorim">![iuricode](https://github-readme-stats.vercel.app/api/top-langs/?username=jonathaneamorim&layout=compact)</a>
+<a href="https://github.com/jonathaneamorim">![jonathaneamorim](https://github-readme-stats.vercel.app/api/top-langs/?username=jonathaneamorim&layout=compact)</a>
 
 ## Onde me encontrar
 
