@@ -1,11 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+:root {
+  --background: #fff7ff;
+  --foreground: #0c0c0c;
+  --themeColor: #15e49a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0c0c0c;
+    --foreground: #fff7ff;
+  }
+}
 
 html,
 body {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--foreground);
+  margin: 0;
+  padding: 0;
 }
 
 ::-webkit-scrollbar {
@@ -20,4 +35,13 @@ section {
 .selection {
   background: #15e49a;
   color: black;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn .2s ease-out;
 }
