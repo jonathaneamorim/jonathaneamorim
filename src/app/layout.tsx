@@ -1,5 +1,5 @@
 import "./globals.css";
-import type { Metadata } from "next";
+import { siteMetadata } from "./shared-metada";
 import { Saira_Condensed } from "next/font/google";
 
 const saira = Saira_Condensed({
@@ -7,15 +7,12 @@ const saira = Saira_Condensed({
   weight: ["300", "400", "500", "700", "900"],
 });
 
-export const metadata: Metadata = {
-  title: "Jonathan Amorim - Portfólio",
-  description: "Portfólio profissional de Jonathan Amorim — Full Stack Developer.",
-};
+export const metadata = siteMetadata;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-br">
-      <body className={saira.className + " bg-black text-white"}>
+      <body className={saira.className}>
         {children}
       </body>
     </html>
