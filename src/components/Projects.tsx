@@ -8,6 +8,7 @@ const iframeProjects = [
   { title: "BioLink", url: "https://bio-link-green-two.vercel.app/", github: "https://github.com/jonathaneamorim/BioLink" },
   { title: "Shop List", url: "https://web-shop-list.vercel.app/", github: "https://github.com/jonathaneamorim/web-shop-list" },
   { title: "Notepad", url: "https://web-notepad-ten.vercel.app/", github: "https://github.com/jonathaneamorim/web-notepad" },
+  { title: "Organiza", url: "https://organiza-seven.vercel.app/", github: "https://github.com/jonathaneamorim/organiza" }
 ];
 
 const repoProjects = [
